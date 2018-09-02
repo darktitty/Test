@@ -14,6 +14,7 @@ public class StringTest {
             String pwd = sc.nextLine();
             if (name.equalsIgnoreCase(username)&&pwd.equals(password)){
                 System.out.println("登陆成功");
+                GuessGame.start();
                 break;
             }else{
                 if((2-x)==0){
