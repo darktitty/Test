@@ -5,6 +5,5 @@ public class StringTest06 {
         StringBuffer s = new StringBuffer();
         s.append("hellohellohellohello");
         System.out.println(s);
-        StringBuffer
     }
 }
