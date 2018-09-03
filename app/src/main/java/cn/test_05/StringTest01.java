@@ -1,6 +1,6 @@
 package cn.test_05;
 
-public class StringTest {
+public class StringTest01 {
     public static void main(String[] args){
         String s = "Hello123Word";
         int big=0;
