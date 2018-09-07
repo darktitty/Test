@@ -38,11 +38,11 @@ public class Student {
         }
 
 //  格式: 对象名 instanceof 类名      判断该对象名是否是该类名一个对象
-        if (!(obj instanceof Student)){
+        if (!(obj instanceof Student02)){
             return false;
         }
 
-        Student s = (Student)obj;
+        Student02 s = (Student02)obj;
         return this.name.equals(s.name) && this.age == s.age;
     }*/
 

@@ -1,14 +1,14 @@
 package cn.test_10;
 
-public class Student {
+public class Student01 {
     private String name;
     private int age;
 
-    public Student() {
+    public Student01() {
         super();
     }
 
-    public Student(String name, int age) {
+    public Student01(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -31,7 +31,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Student02{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
