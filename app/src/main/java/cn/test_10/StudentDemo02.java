@@ -7,11 +7,11 @@ import java.util.Iterator;
 public class StudentDemo02 {
     public static void main(String[] args){
         Collection c = new ArrayList();
-        Student02 s1 = new Student02("Tim", 33);
-        Student02 s2 = new Student02("Harry", 32);
-        Student02 s3 = new Student02("Sprite", 34);
-        Student02 s4 = new Student02("Jordan", 30);
-        Student02 s5 = new Student02("Jeffrey", 28);
+        Student s1 = new Student("Tim", 33);
+        Student s2 = new Student("Harry", 32);
+        Student s3 = new Student("Sprite", 34);
+        Student s4 = new Student("Jordan", 30);
+        Student s5 = new Student("Jeffrey", 28);
 
         c.add(s1);
         c.add(s2);
@@ -35,7 +35,7 @@ public class StudentDemo02 {
         }
 */
         for (Iterator it = c.iterator(); it.hasNext();) {
-            Student02 s = (Student02) it.next();
+            Student s = (Student) it.next();
             System.out.println(s.getName() + "---" + s.getAge());
         }
 

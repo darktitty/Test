@@ -1,14 +1,14 @@
 package cn.test_10;
 
-public class Student01 {
+public class Student {
     private String name;
     private int age;
 
-    public Student01() {
+    public Student() {
         super();
     }
 
-    public Student01(String name, int age) {
+    public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
