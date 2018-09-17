@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class ArrayList08 {
     public static void main (String[] args) {
-        ArrayList array = new ArrayList();
+        ArrayList<Student> array = new ArrayList<Student>();
 
         Student s1 = new Student("Tim", 33);
         Student s2 = new Student("Harry", 32);
@@ -23,10 +23,10 @@ public class ArrayList08 {
         array.add(s6);
         array.add(s7);
 
-        ArrayList newArray = new ArrayList();
-        Iterator it = array.iterator();
+        ArrayList<Student> newArray = new ArrayList<Student>();
+        Iterator<Student> it = array.iterator();
         while(it.hasNext()){
-            Student s = (Student) it.next();
+            Student s = it.next();
             if (!newArray.contains(s)){
                 newArray.add(s);
                 System.out.println(s);
